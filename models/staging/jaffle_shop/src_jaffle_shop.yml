@@ -15,7 +15,7 @@ sources:
               - not_null
             
       - name: orders
-        description: Raw orders data.
+        description: Raw orders data. Test.
         loaded_at_field: _etl_loaded_at
         freshness:
           warn_after: {count: 48, period: hour}
